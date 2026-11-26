@@ -136,6 +136,21 @@ def run_gui():
 def main():
     args = sys.argv[1:]
 
+    if args == ["--check-gui"]:
+        try:
+            from PySide6.QtWidgets import QApplication
+            from gui.app import MainWindow
+            app = QApplication([sys.argv[0]])
+            win = MainWindow()
+            win.show()
+            app.processEvents()
+            win.close()
+            log.info("GUI smoke test OK")
+        except Exception:
+            log.exception("GUI smoke test failed")
+            sys.exit(1)
+        return
+
     # Modo automático/RPA
     if args and args[0] == "--auto":
         rest = args[1:]
