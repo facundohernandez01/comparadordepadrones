@@ -1,0 +1,41 @@
+name: Windows executable
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, fix/windows-build-rpa]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt pyinstaller
+      - name: Build
+        run: python -m PyInstaller --clean --noconfirm ComparadorPadrones.spec
+      - name: Smoke test SIRCIP
+        shell: pwsh
+        run: |
+          $temp = Join-Path $env:RUNNER_TEMP 'sircip-test'
+          New-Item -ItemType Directory -Force $temp | Out-Null
+          Set-Content "$temp/master.txt" '0001|100014|30100100106' -Encoding ascii
+          $expected = '202603,30100100106,Empresa de prueba,904,34,B,5225355'
+          Set-Content "$temp/padron.txt" @($expected, '202603,30100100107,Otra,905,35,C,123') -Encoding ascii
+          $exe = (Resolve-Path 'dist/ComparadorPadrones/ComparadorPadrones.exe').Path
+          $args = '--auto SIRCIP "{0}/master.txt" "{0}/padron.txt" "{0}/salida.prn"' -f $temp
+          $p = Start-Process -FilePath $exe -ArgumentList $args -Wait -PassThru
+          if ($p.ExitCode -ne 0) { throw "Exit code: $($p.ExitCode)" }
+          $actual = @(Get-Content "$temp/salida.prn")
+          if ($actual.Count -ne 1 -or $actual[0] -cne $expected) { throw 'Unexpected SIRCIP output' }
+      - name: Upload portable application
+        uses: actions/upload-artifact@v4
+        with:
+          name: ComparadorPadrones-Windows
+          path: dist/ComparadorPadrones/
+          if-no-files-found: error
