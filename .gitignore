@@ -1,0 +1,11 @@
+# Carpetas de compilación / distribución
+dist/
+build/
+
+# Ejecutables
+*.exe
+
+# Variables de entorno
+.env
+.env.*
+!.env.example

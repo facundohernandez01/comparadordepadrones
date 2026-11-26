@@ -1,0 +1,113 @@
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-01 13:41:46 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-01 13:46:16 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-01 13:46:27 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-03 07:40:49 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-03 07:41:47 [INFO    ] comparador.runner: Iniciando RG17 | master=C:/Users/97605619/Desktop/padrones/RG17/masterdataProveedoresAcin.txt padron=C:/Users/97605619/Desktop/padrones/RG17/rg17.txt salida=C:/Users/97605619/Desktop/padrones/RG17/RG17_salida.prn
+2026-06-03 07:41:47 [DEBUG   ] comparador.master_data: load_num_cuit_pairs: 6972 registros, 6960 CUITs únicos desde C:/Users/97605619/Desktop/padrones/RG17/masterdataProveedoresAcin.txt
+2026-06-03 07:41:47 [INFO    ] comparador.Rg17: Finalizado — encontrados=450
+2026-06-03 07:41:47 [INFO    ] comparador.runner: Finalizado RG17
+2026-06-03 07:54:15 [INFO    ] comparador.runner: Iniciando RG17 | master=C:/Users/97605619/Desktop/padrones/TUCUMAN/output mes 06/masterDataClientes.txt padron=C:/Users/97605619/Desktop/padrones/RG17/rg17.txt salida=C:/Users/97605619/Desktop/padrones/RG17/RG17_salida.prn
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-03 07:54:37 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-03 07:54:59 [INFO    ] comparador.runner: Iniciando AGIP_CLIENTES | master=C:/Users/97605619/Desktop/padrones/TUCUMAN/output mes 06/masterDataClientes.txt padron=C:/Users/97605619/Desktop/padrones/RG17/rg17.txt salida=C:/Users/97605619/Desktop/padrones/RG17/rg17_salida.prn
+2026-06-03 07:54:59 [DEBUG   ] comparador.master_data: load_cuits_set: 27790 CUITs cargados desde C:/Users/97605619/Desktop/padrones/TUCUMAN/output mes 06/masterDataClientes.txt
+2026-06-03 07:54:59 [INFO    ] comparador.AgipClientes: 27790 CUITs en master data
+2026-06-03 07:54:59 [INFO    ] comparador.AgipClientes: Finalizado — procesados=10484 encontrados=0
+2026-06-03 07:54:59 [INFO    ] comparador.runner: Finalizado AGIP_CLIENTES
+2026-06-03 07:58:18 [INFO    ] comparador.runner: Iniciando RG17 | master=C:/Users/97605619/Desktop/padrones/TUCUMAN/output mes 06/masterDataClientes.txt padron=C:/Users/97605619/Desktop/padrones/RG17/rg17.txt salida=C:/Users/97605619/Desktop/padrones/RG17/RG17_salida.prn
+2026-06-03 07:58:19 [DEBUG   ] comparador.master_data: load_num_cuit_pairs: 27879 registros, 27617 CUITs únicos desde C:/Users/97605619/Desktop/padrones/TUCUMAN/output mes 06/masterDataClientes.txt
+2026-06-03 07:58:19 [INFO    ] comparador.Rg17: Finalizado — encontrados=783
+2026-06-03 07:58:19 [INFO    ] comparador.runner: Finalizado RG17
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-03 10:32:39 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-03 13:15:43 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-10 11:30:59 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
+2026-06-10 11:31:52 [DEBUG   ] comparador.runner: Registrado: AGIP_CLIENTES -> AgipClientes
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: AGIP_PROVEEDORES -> AgipProveedores
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: ARBA_CLIENTES -> ArbaClientes
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: ARBA_PROVEEDORES -> ArbaProveedores
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: JUJUY_CLIENTES -> JujuyClientes
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: RG615 -> Rg615
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: RG17 -> Rg17
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: EMBARGOS -> Embargos
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: SIRCIP -> Sircip
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_CLIENTES -> TucumanClientes
+2026-06-10 11:31:53 [DEBUG   ] comparador.runner: Registrado: TUCUMAN_PROVEEDORES -> TucumanProveedores
