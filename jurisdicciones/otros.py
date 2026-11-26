@@ -202,7 +202,6 @@ class Sircip(PadronProcessor):
              open(self.output_path, "w", encoding="latin1") as fo:
 
             # ⚠️ ya no agregamos columna extra
-            fo.write("periodo,CUIT,razon_social,num_cert,CRC,alicuota_letra\n")
 
             for line in fi:
                 procesados += 1
