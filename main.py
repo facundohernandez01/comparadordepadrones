@@ -18,6 +18,13 @@ Modos de ejecución:
 """
 
 import sys
+import os
+
+# PyInstaller windowed mode has no standard streams.
+if sys.stdout is None:
+    sys.stdout = open(os.devnull, 'w')
+if sys.stderr is None:
+    sys.stderr = open(os.devnull, 'w')
 import traceback
 import configparser
 from pathlib import Path
@@ -113,7 +120,7 @@ def run_gui():
     app = QApplication(sys.argv)
     app.setStyle("Fusion")
 
-    icon_path = Path(__file__).parent / "icon.png"
+    icon_path = Path(__file__).parent / "icon.ico"
     if icon_path.exists():
         app.setWindowIcon(QIcon(str(icon_path)))
 
