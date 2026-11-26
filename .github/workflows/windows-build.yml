@@ -19,6 +19,13 @@ jobs:
         run: python -m pip install -r requirements.txt pyinstaller
       - name: Build
         run: python -m PyInstaller --clean --noconfirm ComparadorPadrones.spec
+      - name: Smoke test packaged GUI
+        shell: pwsh
+        run: |
+          $exe = (Resolve-Path 'dist/ComparadorPadrones/ComparadorPadrones.exe').Path
+          $p = Start-Process -FilePath $exe -ArgumentList '--check-gui' -PassThru
+          if (-not $p.WaitForExit(60000)) { $p.Kill(); throw 'GUI test timed out' }
+          if ($p.ExitCode -ne 0) { Get-Content 'dist/ComparadorPadrones/_internal/comparador.log' -ErrorAction SilentlyContinue; throw "GUI exit code: $($p.ExitCode)" }
       - name: Smoke test SIRCIP
         shell: pwsh
         run: |
